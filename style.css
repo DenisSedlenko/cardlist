@@ -1,0 +1,145 @@
+.mdl-grid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mdl-card.mdl-cell.mdl-cell--6-col.mdl-cell--4-col-tablet.mdl-shadow--2dp {
+    width: 250px;
+    transition: transform .2s ease-in-out;
+}
+
+.mdl-card.mdl-cell.mdl-cell--6-col.mdl-cell--4-col-tablet.mdl-shadow--2dp:hover {
+    transform: scale(1.05);
+}
+
+figure[class^='mdl-card__media-'] {
+	margin: 0;
+}
+
+.mdl-card__media-left,
+.mdl-card__media-right {
+    position: absolute;
+    font-size: 2.5em;
+    color: rgb(15, 210, 45);
+}
+
+.mdl-card__media-left {
+    left: .5em;
+    top: .5em;
+}
+
+.mdl-card__media-right {
+    top: .5em;
+    right: .5em;
+}
+
+.mdl-card__media-center {
+    text-align: center;
+    padding: .5em;
+    padding-bottom: 0;
+    font-size: 6em;
+    color: rgb(15, 210, 45);
+}
+
+.mdl-card__info-media {
+    margin: 0 .2em 1em;
+    font-size: 1.3em;
+    vertical-align: top;
+    color: rgb(15, 210, 45); 
+}
+
+.mdl-card__info-text {
+    line-height: 13px;
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mdl-card__info-text>span {
+    color: rgb(15, 210, 45); 
+}
+
+.mdl-card .mdl-card__supporting-text {
+    padding: 0 16px;
+    color: rgb(0, 0, 0);
+}
+
+.mdl-card__panel-user-rate {
+    font-size: .85em;
+    padding: 0 16px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.mdl-card__panel-rate::before {
+    content: '★';
+    color: rgb(236, 236, 13);
+}
+
+.mdl-card__panel-user::before {
+    content: '●';
+}
+
+.mdl-card__panel-user,
+.mdl-card__panel-rate,
+.mdl-card__panel-like,
+.mdl-card__panel-cost {
+    display: inline-block;
+}
+
+.mdl-card__panel-rate>span>strong {
+    color: rgb(236, 236, 13);
+}
+
+.mdl-card__panel-user {
+    margin-right: 5.1em;
+}
+
+.mdl-card__actions-body {
+    padding: 5px 16px 0;
+}
+
+.mdl-card__panel-like-cost {
+    padding-bottom: .5em;
+}
+
+.mdl-card__panel-cost {
+    color: rgb(15, 210, 45);
+}
+
+.mdl-card__panel-like {
+    margin-right: 8.6em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.mdl-card__title, 
+.mdl-card__panel-like,
+.mdl-card__panel-user {
+    cursor: pointer;
+}
+
+.mdl-carousel {
+    position: relative;
+}
+
+.mdl-carousel-cell {
+    width: 90%;
+    margin: 5em auto 3em;
+}
+
+#carousel-prev,
+#carousel-next {
+    position: absolute;
+    font-size: 4em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#carousel-prev {
+    left: .5%;
+    top: 50%;
+}
+
+#carousel-next {
+    right: .5%;
+    top: 50%;
+}
+
+
